@@ -1,0 +1,22 @@
++ git init: khởi tạo repository
++ git branch: xem danh sách nhánh
++ git branch name_new_branch: tạo 1 nhánh mới
++ git checkout name_branch: di chuyển sang nhánh khác
++ git checkout -b name_new_brach: tạo nhánh mới và di chuyển sang nhánh vừa tạo
++ git status: kiểm tra sự thay đổi trên git
++ git add name_file: đưa 1 file lên 1 nhánh (lưu lịch sử)
++ git commit -m : chính thức đưa file lên nhánh
++ git merge ten_nhanh_merge: meger một nhánh khác trên một nhánh đang đứng
++ git branch -d name_branch: xoá 1 nhánh
++ git branch -D name_branch: xoá 1 nhánh có sự thay đổi nhưng chưa merge
++ git log: xem lịch sử trên 1 nhánh
++ git commit --amend: sửa lại commit hoặc add thêm file cho commit đã commit gần nhất
++ git reset --soft HEAD~1: quay lại 1 commit đã commit trước đó, và giữ lại những thay đổi ở hiện tại
++ get reset --soft HEAD~1: quay lại đúng trạng thái commit lần trước của mình
++ git clean --force: xoá hết các file chưa được commit
+- thay đổi tên tác giả của commit
+ + git config user.name "Nguyen Van A"
+ + git config user.email vana@gmal.com
+ + git commit --amend --reset-author
+
+
