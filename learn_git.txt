@@ -19,4 +19,7 @@
  + git config user.email vana@gmal.com
  + git commit --amend --reset-author
 
++ thay đổi nhánh chính từ nhánh main thành nhánh master:
+git branch -m main master 
+git push -u origin master
 
